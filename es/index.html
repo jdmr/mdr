@@ -16,6 +16,7 @@
     <meta name="theme-color" content="#231f20">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.4.2/css/iziModal.min.css">
 
     <!-- Importing Styles -->
     <link rel="stylesheet" href="/css/style.css">
@@ -227,7 +228,7 @@
 
                             <!-- Plan Content -->
                             <div class="plan-content">
-                                <h4 class="feature-title"><i class="pe-7s-check check"></i>Pantallas con grietas</h4>
+                                <h4 class="feature-title"><i class="pe-7s-check check"></i><a href="#" id="cracked-screens">Pantallas con grietas</a></h4>
                                 <h4 class="feature-title"><i class="pe-7s-check check"></i>Pantallas rotas</h4>
                                 <h4 class="feature-title"><i class="pe-7s-check check"></i>Problemas con puerto de carga</h4>
                                 <h4 class="feature-title"><i class="pe-7s-check check"></i>Transferencia de datos</h4>
@@ -410,6 +411,15 @@
 
             </div>
 
+            <div class="row text-center" style="margin-top: 30px;">
+
+                <!-- Section Header -->
+                <header class="col-md-8 col-md-push-2 col-sm-12">
+                    <a href="https://goo.gl/rHBHlI" target="_blank">Escriba una reseña</a>
+                </header>
+
+            </div>
+
         </div>
     </section>
 
@@ -542,6 +552,163 @@
     <!-- Go To Top Button -->
     <a href="#home" class="go-to-top-button"><i class="pe-7s-angle-up"></i></a>
 
+    <style>
+        #modal {
+            padding: 5px;
+        }
+
+        .table {
+            margin: auto;
+            width: 80%;
+            max-width: 80%;
+            margin-bottom: 20px;
+        }
+
+        .table>thead>tr>th, .table>tbody>tr>td {
+            vertical-align: bottom;
+            text-align: left;
+            line-height: 1.4;
+            padding: 5px;
+        }
+        .table>thead>tr>th.underline, .table>thead>tr>td.underline {
+            border-bottom: 2px solid #ddd;
+        }
+        .table>tbody>tr>td {
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+    <div id="modal">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th colspan="2">
+                        <h2>Pantallas con grietas</h2>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="underline" colspan="2"><h3>Apple</h3></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>iPad 2</td>
+                    <td style="text-align:right;">$99</td>
+                </tr>
+                <tr>
+                    <td>iPad 3</td>
+                    <td style="text-align:right;">$99</td>
+                </tr>
+                <tr>
+                    <td>iPad 4</td>
+                    <td style="text-align:right;">$99</td>
+                </tr>
+                <tr>
+                    <td>iPad Mini</td>
+                    <td style="text-align:right;">$125</td>
+                </tr>
+                <tr>
+                    <td>iPad Mini 2</td>
+                    <td style="text-align:right;">$125</td>
+                </tr>
+                <tr>
+                    <td>iPad Air</td>
+                    <td style="text-align:right;">$125</td>
+                </tr>
+                <tr>
+                    <td>iPad Air 2</td>
+                    <td style="text-align:right;">$185</td>
+                </tr>
+                <tr>
+                    <td>iPad Mini 3</td>
+                    <td style="text-align:right;">$125</td>
+                </tr>
+                <tr>
+                    <td>iPad Mini 3</td>
+                    <td style="text-align:right;">$180</td>
+                </tr>
+                <tr>
+                    <td>iPad Touch 5g</td>
+                    <td style="text-align:right;">$110</td>
+                </tr>
+                <tr>
+                    <td>iPad Touch 4g</td>
+                    <td style="text-align:right;">$60</td>
+                </tr>
+                <tr>
+                    <td>iPhone 7</td>
+                    <td style="text-align:right;">$230</td>
+                </tr>
+                <tr>
+                    <td>iPhone 7 plus</td>
+                    <td style="text-align:right;">$270</td>
+                </tr>
+                <tr>
+                    <td>iPhone 6s</td>
+                    <td style="text-align:right;">$135</td>
+                </tr>
+                <tr>
+                    <td>iPhone 6s plus</td>
+                    <td style="text-align:right;">$165</td>
+                </tr>
+                <tr>
+                    <td>iPhone 6</td>
+                    <td style="text-align:right;">$99</td>
+                </tr>
+                <tr>
+                    <td>iPhone 6 plus</td>
+                    <td style="text-align:right;">$125</td>
+                </tr>
+                <tr>
+                    <td>iPhone 5s</td>
+                    <td style="text-align:right;">$75</td>
+                </tr>
+                <tr>
+                    <td>iPhone 5c</td>
+                    <td style="text-align:right;">$75</td>
+                </tr>
+                <tr>
+                    <td>iPhone 5</td>
+                    <td style="text-align:right;">$75</td>
+                </tr>
+                <tr>
+                    <td>iPhone 5e</td>
+                    <td style="text-align:right;">$75</td>
+                </tr>
+                <tr>
+                    <td class="text-left" colspan="2" style="padding-top: 20px;border-bottom: 2px solid #ddd"><h3>Samsung</h3></td>
+                </tr>
+                <tr>
+                    <td>Galaxy S4</td>
+                    <td style="text-align:right;">$125</td>
+                </tr>
+                <tr>
+                    <td>Galaxy S5</td>
+                    <td style="text-align:right;">$185</td>
+                </tr>
+                <tr>
+                    <td>Galaxy S6</td>
+                    <td style="text-align:right;">$230</td>
+                </tr>
+                <tr>
+                    <td>Galaxy S6 Edge</td>
+                    <td style="text-align:right;">$245</td>
+                </tr>
+                <tr>
+                    <td>Galaxy S7</td>
+                    <td style="text-align:right;">$240</td>
+                </tr>
+                <tr>
+                    <td>Galaxy S7 Edge</td>
+                    <td style="text-align:right;">$335</td>
+                </tr>
+
+                <tr>
+                    <th colspan="2" style="padding-top: 20px; border-bottom: none;">Todas las partes utilizadas en la reparaci&oacute;n son de la m&aacute;s alta calidad (certificadas).</th>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
 
     <!-- Importing Scripts -->
 
@@ -551,6 +718,21 @@
     <!-- If CDN fails than use local jQuery -->
     <script>
         window.jQuery || document.write('<script src="/js/jquery-3.0.0.min.js"><\/script>')
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.4.2/js/iziModal.min.js"></script>
+    <script>
+        $(function() {
+            $('#modal').iziModal({
+                transitionIn: 'fadeInUp',
+                transitionOut: 'fadeOutDown'
+            });
+
+            $('#cracked-screens').click(function(e) {
+                e.preventDefault();
+                $('#modal').iziModal('open');
+            });
+        });
     </script>
 
     <!-- Owl Carousel -->
